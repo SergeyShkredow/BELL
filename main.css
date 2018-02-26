@@ -1,0 +1,92 @@
+button {border:0;color:#fff;background:#c8285d;font-size:17px;line-height:36px;color:#fff;padding:0 22px;}
+i {
+    display:inline-block;
+    position:relative;
+    top:4px;
+    width:17px;
+    height: 19px;
+    margin-left:10px;
+    background:url('https://s6.postimg.org/c6y04h3u9/10_02_17_bell.png');
+}
+i.active {
+    -webkit-animation-name: icon-bell;
+    animation-name: icon-bell;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 3;
+    animation-iteration-count: 3;
+}
+
+/*?=icon-bell animation------------------- */
+@-webkit-keyframes icon-bell {
+    0% {
+        -webkit-transform: rotate(-15deg);
+    }
+    10% {
+        -webkit-transform: rotate(15deg);
+    }
+    20% {
+        -webkit-transform: rotate(-18deg);
+    }
+    30% {
+        -webkit-transform: rotate(18deg);
+    }
+    40% {
+        -webkit-transform: rotate(-22deg);
+    }
+    50% {
+        -webkit-transform: rotate(22deg);
+    }
+    60% {
+        -webkit-transform: rotate(-18deg);
+    }
+    70% {
+        -webkit-transform: rotate(18deg);
+    }
+    80% {
+        -webkit-transform: rotate(-12deg);
+    }
+    90% {
+        -webkit-transform: rotate(12deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+@keyframes icon-bell {
+    0% {
+        transform: rotate(-15deg);
+    }
+    10% {
+        transform: rotate(15deg);
+    }
+    20% {
+        transform: rotate(-18deg);
+    }
+    30% {
+        transform: rotate(18deg);
+    }
+    40% {
+        transform: rotate(-22deg);
+    }
+    50% {
+        transform: rotate(22deg);
+    }
+    60% {
+        transform: rotate(-18deg);
+    }
+    70% {
+        transform: rotate(18deg);
+    }
+    80% {
+        transform: rotate(-12deg);
+    }
+    90% {
+        transform: rotate(12deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
