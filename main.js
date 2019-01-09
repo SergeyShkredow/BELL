@@ -5,6 +5,6 @@ var cell = function () {
             $('i').removeClass('active');
             console.log(cool);
                 clearInterval(interv);
-        }, 3000);
+        }, 3022);
 
 };
